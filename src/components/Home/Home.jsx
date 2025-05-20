@@ -59,7 +59,7 @@ const Home = () => {
       {showContact && (
         <div className="contact-info" id="contact-info">
           <p><FaPhone style={{ marginRight: "8px" }} /> <a href="tel:+46723145433">+46 72 314 54 33</a></p>
-          <p><FaEnvelope style={{ marginRight: "8px" }} /> <a href="mailto:hetiny.khaled@gmail.com">Hetiny.khaled@gmail.com</a></p>
+          <p><FaEnvelope style={{ marginRight: "8px" }} /> <a href="mailto:hetiny.khaled@gmail.com">hetiny.khaled@gmail.com</a></p>
         </div>
       )}
 
