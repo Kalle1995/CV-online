@@ -16,7 +16,7 @@ const Home = () => {
       <p className="bio">Frontend Developer | Microsoft 365 Developer</p>
 
       <div className="profile-wrapper">
-        <img src={`${import.meta.env.BASE_URL}profile.jpg`} alt="Profilbild" className="profile-pic" />
+      <img src="/profile.jpg" alt="Profilbild" className="profile-pic" />
         <div className="profile-overlay"></div>
       </div>
 
