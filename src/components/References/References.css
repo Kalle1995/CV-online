@@ -1,0 +1,54 @@
+/* References.css */
+
+.references-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 3rem 2.5rem;
+  background-color: #1e1e1e;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.8);
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #bb86fc;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+.reference-item {
+  background-color: #2c2c2c;
+  padding: 1.5rem 2rem;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 20px rgba(187, 134, 252, 0.3);
+}
+
+.reference-item h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  color: #c49aff;
+}
+
+.reference-item p {
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+  color: #ddd;
+}
+
+.reference-item a {
+  color: #bb86fc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.reference-item a:hover {
+  color: #c49aff;
+  text-decoration: underline;
+}

@@ -1,0 +1,93 @@
+/* education.css */
+
+.cv-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 3rem 2.5rem;
+  background-color: #1e1e1e;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.8);
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+}
+
+.cv-container h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #bb86fc;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+.education-item {
+  background-color: #2a2a2a;
+  padding: 1.5rem 2rem;
+  border-radius: 16px;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 6px 20px rgba(187, 134, 252, 0.4);
+}
+
+.education-item h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #c49aff;
+}
+
+.location-date {
+  font-style: italic;
+  color: #aaa;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.education-item p {
+  color: #ddd;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.education-item ul {
+  list-style-type: disc;
+  margin-left: 1.6rem;
+  color: #ddd;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.education-item ul li {
+  margin-bottom: 0.4rem;
+}
+
+.study-period {
+  font-weight: 700;
+  color: #bb86fc;
+  font-size: 1rem;
+}
+
+.pdf-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+
+.certificate-btn {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e1e1e;
+  background-color: #bb86fc;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: fit-content;
+}
+
+.certificate-btn:hover {
+  background-color: #9b6de9;
+}

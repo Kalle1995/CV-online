@@ -1,0 +1,164 @@
+/* Container */
+.home-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 3rem 2.5rem;
+  background-color: #1e1e1e;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.8);
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/* Header */
+h1.name {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #bb86fc;
+  letter-spacing: 1.5px;
+}
+
+/* Bio text */
+p.bio {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #ccc;
+  margin-bottom: 2.5rem;
+}
+
+/* Profile picture + overlay */
+.profile-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #bb86fc;
+  box-shadow: 0 0 20px #bb86fc;
+}
+
+
+.profile-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  user-select: none;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  background: linear-gradient(135deg, #7b68ee, #bb86fc);
+  color: #121212;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 0.9rem 2.5rem;
+  border-radius: 30px;
+  box-shadow: 0 6px 18px rgba(187, 134, 252, 0.6);
+  text-decoration: none;
+  transition: background 0.4s ease, box-shadow 0.4s ease;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #9a6efc, #c49aff);
+  box-shadow: 0 8px 28px rgba(154, 110, 252, 0.9);
+}
+
+/* Social icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.social-icons a {
+  color: #bb86fc;
+  font-size: 2.5rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #c49aff;
+  transform: scale(1.3);
+}
+.about-me-text {
+  max-width: 540px;
+  margin: 0 auto 3rem auto;
+  color: #ddd;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-me-text p {
+  margin-bottom: 1rem;
+}
+ .contact-toggle-btn {
+  background: linear-gradient(135deg, #7b68ee, #bb86fc);
+  color: #121212;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 0.7rem 2.5rem;
+  border-radius: 30px;
+  box-shadow: 0 6px 18px rgba(187, 134, 252, 0.6);
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0 auto 2rem auto;
+  transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+.contact-toggle-btn:hover {
+  background: linear-gradient(135deg, #9a6efc, #c49aff);
+  box-shadow: 0 8px 28px rgba(154, 110, 252, 0.9);
+}
+
+.contact-info {
+  max-width: 540px;
+  margin: 0 auto 3rem auto;
+  background-color: #2a2a2a;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  color: #ddd;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  box-shadow: 0 4px 20px rgba(187, 134, 252, 0.3);
+}
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.contact-info a {
+  color: #bb86fc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #c49aff;
+}
+

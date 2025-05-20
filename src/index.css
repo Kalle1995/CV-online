@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+  background-color: #121212;  /* mörkgrå/svart bakgrund */
+  color: #e0e0e0;            /* ljus textfärg */
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
