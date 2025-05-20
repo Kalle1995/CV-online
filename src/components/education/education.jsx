@@ -3,7 +3,7 @@ import "./education.css";
 
 const Education = () => {
   const openPDF = (path) => {
-   window.open(`${process.env.PUBLIC_URL}${path}`, "_blank");
+    window.open(`${import.meta.env.BASE_URL}${path}`, "_blank");
   };
 
   return (
@@ -40,7 +40,7 @@ const Education = () => {
 
         {/* PDF-knappar */}
         <div className="pdf-buttons">
-          <button onClick={() => openPDF("/intyg.pdf")} className="certificate-btn">
+          <button onClick={() => openPDF("intyg.pdf")} className="certificate-btn">
             Visa Intyg (PDF)
           </button>
           <button onClick={() => openPDF("/yh-exam-swe.pdf")} className="certificate-btn">
