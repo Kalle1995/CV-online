@@ -3,7 +3,7 @@ import "./education.css";
 
 const Education = () => {
   const openPDF = (path) => {
-    window.open(path, "_blank");
+    window.open(`${process.env.PUBLIC_URL}${path}`, "_blank");
   };
 
   return (
