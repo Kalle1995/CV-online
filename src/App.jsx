@@ -9,7 +9,7 @@ import References from "./components/References/References";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/CV-online">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/education" element={<Education />} />
