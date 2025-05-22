@@ -1,40 +1,21 @@
 import React from "react";
 import "./WorkExperience.css";
+import { useTranslation } from "react-i18next";
 
 const WorkExperience = () => {
+  const { t } = useTranslation();
+  const experiences = t("workExperience.items", { returnObjects: true });
+
   return (
     <div className="experience-container">
-      <h2>Arbetslivserfarenhet</h2>
+      <h2>{t("workExperience.title")}</h2>
 
-      <div className="experience-item">
-        <h3>Hemtjänst – Nybro Kommun</h3>
-        <p className="location-date">Januari 2020 – Nuvarande</p>
-      </div>
-
-      <div className="experience-item">
-        <h3>Lärare (vikarie) – Paradisskolan, Nybro Kommun</h3>
-        <p className="location-date">Februari 2024 – Juni 2024</p>
-      </div>
-
-      <div className="experience-item">
-        <h3>Praktik – Twoday</h3>
-        <p className="location-date">November 2023 – April 2024</p>
-      </div>
-
-      <div className="experience-item">
-        <h3>Montör – Scania, Oskarshamn</h3>
-        <p className="location-date">Oktober 2018 – Oktober 2019</p>
-      </div>
-
-      <div className="experience-item">
-        <h3>Städare – Ekerum, Öland</h3>
-        <p className="location-date">Januari 2016 – Oktober 2018</p>
-      </div>
-
-      <div className="experience-item">
-        <h3>Säljare – Syrien</h3>
-        <p className="location-date">2010 – 2012</p>
-      </div>
+      {experiences.map((item, index) => (
+        <div className="experience-item" key={index}>
+          <h3>{item.position}</h3>
+          <p className="location-date">{item.date}</p>
+        </div>
+      ))}
     </div>
   );
 };

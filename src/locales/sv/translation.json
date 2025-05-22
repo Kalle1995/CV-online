@@ -1,0 +1,179 @@
+{
+  "home": {
+    "name": "Khaled Heteni",
+    "bio": "Frontend Developer | Microsoft 365 Developer",
+    "profileAlt": "Profilbild",
+    "links": {
+      "education": "Utbildningar",
+      "personalLetter": "Personligt Brev",
+      "competence": "Kompetens",
+      "workExperience": "Arbetslivserfarenhet",
+      "references": "Referenser"
+    },
+    "about": {
+      "line1": "Jag är en mångsidig person med erfarenhet av att arbeta inom olika områden. Men när det kommer till mitt passion så är det inom utveckling.",
+      "line2": "Min erfarenhet inom utveckling, kombinerat med mina naturliga färdigheter och starka intresse, gör mig till en kvalificerad kandidat för utvecklingsrelaterade jobb. Jag är en självgående person som gärna arbetar både i team och enskilt och har förmåga att ta initiativ och leverera resultat.",
+      "line3": "Jag talar flytande arabiska och har goda kunskaper i både engelska och svenska, vilket ger mig en fördel när det gäller att kommunicera effektivt."
+    },
+    "contactButton": "Kontakta mig"
+  },
+    "education": {
+    "title": "Utbildningar",
+    "frontend": {
+      "title": "Frontendutvecklare – Pågående",
+      "locationDate": "Sverige | Augusti 2024 – Juni 2026",
+      "description": "Utbildningen omfattar bland annat:",
+      "basicsLabel": "Grund",
+      "basics": "HTML, CSS, JavaScript",
+      "frameworksLabel": "Moderna ramverk",
+      "frameworks": "React, Angular",
+      "frontendLabel": "Frontend",
+      "frontendTech": "Next.js, TypeScript, Tailwind, shadcn, TanStack Query",
+      "backendLabel": "Backend-utveckling",
+      "backendTech": "Express.js, SQL, C#, Web API, Entity Framework Core"
+    },
+    "microsoft365": {
+      "title": "EC Utbildning – Microsoft 365 Developer",
+      "locationDate": "Stockholm | 2022 – 2024",
+      "description": "Under utbildningen har jag studerat:",
+      "items": {
+        "m365Admin": "Microsoft 365 Admin Center",
+        "itSupport": "IT support och IT förvaltning inom M365",
+        "agile": "Agil projektmetodik",
+        "teams": "Teams och Teams Admin Center",
+        "sharepoint": "SharePoint Online och SharePoint Admin Center",
+        "powerPlatform": "Power Platform (Power Automate, Power Apps, Power Virtual Agent, Power Pages, Power BI)",
+        "allApps": "Alla appar inom M365"
+      },
+      "studyPeriod": "Studietid: Augusti 2022 – Maj 2024",
+      "certificates": {
+        "certificate": "Visa Intyg (PDF)",
+        "yhExamSwe": "YH-examen (Svenska)",
+        "yhExamEng": "YH-examen (Engelska)"
+      }
+    },
+    "highschool": {
+      "title": "Gymnasieexamen",
+      "locationDate": "Damascus, Syrien | 2012"
+    },
+    "microsoft365Old": {
+      "title": "Microsoft 365 – Tidigare version",
+      "location": "Damascus | 2009",
+      "description": "En utbildning i den äldre versionen av Microsoft 365."
+    }
+  },
+  "personalLetter": {
+    "title": "Personligt Brev",
+    "paragraph1": "Hej!",
+    "paragraph2": "Jag är mycket intresserad av möjligheten att arbeta som frontendutvecklare hos er. Min passion för webbutveckling och teknik driver mig att ständigt utvecklas och lära mig nya saker inom områden som React, Angular, JavaScript och CSS.",
+    "paragraph3": "Utöver frontend har jag också grundläggande kunskaper inom backend-utveckling, bland annat med Express.js och SQL, vilket ger mig en bredare förståelse för hela utvecklingsprocessen. Jag gillar att arbeta med både frontend och backend för att skapa effektiva och skalbara lösningar.",
+    "paragraph4": "Jag är en målmedveten och problemlösningsorienterad person som trivs med att arbeta både självständigt och i team. Jag strävar alltid efter att skapa användarvänliga och effektiva gränssnitt som förbättrar användarupplevelsen.",
+    "paragraph5": "Med min starka arbetsmoral och förmåga att snabbt sätta mig in i nya tekniker, är jag övertygad om att jag kan bidra positivt till ert team och era projekt. Jag gillar att ta initiativ och ser utmaningar som möjligheter att växa och bli ännu bättre.",
+    "paragraph6": "Tack för att ni tar er tid att läsa mitt brev. Jag ser fram emot att få möjlighet att visa vad jag kan tillföra och utvecklas tillsammans med er.",
+    "closing": "Vänliga hälsningar,\nKhaled Heteni"
+  },
+  "competence": {
+    "title": "Kompetens",
+    "frontend": {
+      "title": "Frontend Developer",
+      "description": "Jag har goda kunskaper inom följande tekniker:",
+      "items": [
+        "HTML5, CSS3, JavaScript (ES6+)",
+        "React.js, Next.js, Angular",
+        "TypeScript, Tailwind CSS, shadcn/ui",
+        "Git, GitHub, API-integrationer, responsiv design"
+      ]
+    },
+    "m365": {
+      "title": "Microsoft 365",
+      "description": "Inom Microsoft 365 har jag kunskaper i:",
+      "items": [
+        "SharePoint",
+        "Power Platform (Power Apps, Power Automate, Power BI)",
+        "Teams-integrationer",
+        "OneDrive och Exchange-hantering"
+      ]
+    },
+    "it": {
+      "title": "Data & IT",
+      "items": [
+        "Allmän datorvana",
+        "Grundläggande hårdvara och mjukvara",
+        "Felsökning och problemlösning"
+      ]
+    },
+    "languages": {
+      "title": "Språk",
+      "items": [
+        "Arabiska – Flytande",
+        "Svenska – Goda kunskaper",
+        "Engelska – Mycket bra"
+      ]
+    },
+    "other": {
+      "title": "Övrigt",
+      "items": [
+        "B-körkort"
+      ]
+    }
+  },
+  "references": {
+    "title": "Referenser",
+    "items": [
+      {
+        "name": "Emma Freding",
+        "position": "Handledare, Twoday företag",
+        "phone": "070-829 56 11",
+        "phoneHref": "tel:+46708295611"
+      },
+      {
+        "name": "Jens Carlsson",
+        "position": "Chef, Scania",
+        "phone": "076-891 90 44",
+        "phoneHref": "tel:+46768919044"
+      },
+      {
+        "name": "Aurelia",
+        "position": "Chef, Hemtjänst",
+        "phone": "070-289 65 33",
+        "phoneHref": "tel:+46702896533"
+      },
+      {
+        "name": "Maddalene Palo",
+        "position": "Chef, Hemtjänst",
+        "phone": "0481 456 47",
+        "phoneHref": "tel:+4648145647"
+      }
+    ]
+  },
+  "workExperience": {
+    "title": "Arbetslivserfarenhet",
+    "items": [
+      {
+        "position": "Hemtjänst – Nybro Kommun",
+        "date": "Januari 2020 – Nuvarande"
+      },
+      {
+        "position": "Lärare (vikarie) – Paradisskolan, Nybro Kommun",
+        "date": "Februari 2024 – Juni 2024"
+      },
+      {
+        "position": "Praktik – Twoday",
+        "date": "November 2023 – April 2024"
+      },
+      {
+        "position": "Montör – Scania, Oskarshamn",
+        "date": "Oktober 2018 – Oktober 2019"
+      },
+      {
+        "position": "Städare – Ekerum, Öland",
+        "date": "Januari 2016 – Oktober 2018"
+      },
+      {
+        "position": "Säljare – Syrien",
+        "date": "2010 – 2012"
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,181 @@
+{
+  "home": {
+    "name": "Khaled Heteni",
+    "bio": "Frontend Developer | Microsoft 365 Developer",
+    "profileAlt": "Profile picture",
+    "links": {
+      "education": "Education",
+      "personalLetter": "Personal Letter",
+      "competence": "Competence",
+      "workExperience": "Work Experience",
+      "references": "References"
+    },
+    "about": {
+      "line1": "I am a versatile person with experience in various fields. But when it comes to my passion, it is development.",
+      "line2": "My experience in development, combined with my natural skills and strong interest, makes me a qualified candidate for development-related jobs. I am self-driven and like to work both in teams and individually, with the ability to take initiative and deliver results.",
+      "line3": "I speak fluent Arabic and have good skills in both English and Swedish, which gives me an advantage when it comes to communicating effectively."
+    },
+    "contactButton": "Contact me"
+  },
+  "education": {
+    "title": "Education",
+    "frontend": {
+      "title": "Frontend Developer – Ongoing",
+      "locationDate": "Sweden | August 2024 – June 2026",
+      "description": "The education covers among others:",
+      "basicsLabel": "Basics",
+      "basics": "HTML, CSS, JavaScript",
+      "frameworksLabel": "Modern frameworks",
+      "frameworks": "React, Angular",
+      "frontendLabel": "Frontend",
+      "frontendTech": "Next.js, TypeScript, Tailwind, shadcn, TanStack Query",
+      "backendLabel": "Backend development",
+      "backendTech": "Express.js, SQL, C#, Web API, Entity Framework Core"
+    },
+    "microsoft365": {
+      "title": "EC Utbildning – Microsoft 365 Developer",
+      "locationDate": "Stockholm | 2022 – 2024",
+      "description": "During the education, I studied:",
+      "items": {
+        "m365Admin": "Microsoft 365 Admin Center",
+        "itSupport": "IT support and IT management within M365",
+        "agile": "Agile project methodology",
+        "teams": "Teams and Teams Admin Center",
+        "sharepoint": "SharePoint Online and SharePoint Admin Center",
+        "powerPlatform": "Power Platform (Power Automate, Power Apps, Power Virtual Agent, Power Pages, Power BI)",
+        "allApps": "All apps within M365"
+      },
+      "studyPeriod": "Study period: August 2022 – May 2024",
+      "certificates": {
+        "certificate": "View Certificate (PDF)",
+        "yhExamSwe": "YH Exam (Swedish)",
+        "yhExamEng": "YH Exam (English)"
+      }
+    },
+    "highschool": {
+      "title": "High School Diploma",
+      "locationDate": "Damascus, Syria | 2012"
+    },
+    "microsoft365Old": {
+      "title": "Microsoft 365 – Previous version",
+      "location": "Damascus | 2009",
+      "description": "A course in the older version of Microsoft 365."
+    }
+  },
+  "personalLetter": {
+    "title": "Personal Letter",
+    "paragraph1": "Hello!",
+    "paragraph2": "I am very interested in the opportunity to work as a frontend developer with your company. My passion for web development and technology drives me to constantly grow and learn new things in areas like React, Angular, JavaScript, and CSS.",
+    "paragraph3": "In addition to frontend, I also have basic knowledge of backend development, including Express.js and SQL, which gives me a broader understanding of the entire development process. I enjoy working with both frontend and backend to create efficient and scalable solutions.",
+    "paragraph4": "I am a goal-oriented and problem-solving person who enjoys working independently as well as in a team. I always strive to create user-friendly and effective interfaces that enhance the user experience.",
+    "paragraph5": "With my strong work ethic and ability to quickly learn new technologies, I am confident that I can contribute positively to your team and projects. I like to take initiative and see challenges as opportunities to grow and improve.",
+    "paragraph6": "Thank you for taking the time to read my letter. I look forward to the opportunity to show what I can contribute and to grow together with you.",
+    "closing": "Best regards,\nKhaled Heteni"
+  },
+   "competence": {
+    "title": "Competence",
+    "frontend": {
+      "title": "Frontend Developer",
+      "description": "I have solid knowledge of the following technologies:",
+      "items": [
+        "HTML5, CSS3, JavaScript (ES6+)",
+        "React.js, Next.js, Angular",
+        "TypeScript, Tailwind CSS, shadcn/ui",
+        "Git, GitHub, API integrations, responsive design"
+      ]
+    },
+    "m365": {
+      "title": "Microsoft 365",
+      "description": "Within Microsoft 365, I have experience with:",
+      "items": [
+        "SharePoint",
+        "Power Platform (Power Apps, Power Automate, Power BI)",
+        "Teams integrations",
+        "OneDrive and Exchange management"
+      ]
+    },
+    "it": {
+      "title": "Data & IT",
+      "items": [
+        "General computer skills",
+        "Basic hardware and software",
+        "Troubleshooting and problem solving"
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "items": [
+        "Arabic – Fluent",
+        "Swedish – Good knowledge",
+        "English – Very good"
+      ]
+    },
+    "other": {
+      "title": "Other",
+      "items": [
+        "B driver’s license"
+      ]
+    }
+  },
+  "references": {
+    "title": "References",
+    "items": [
+      {
+        "name": "Emma Freding",
+        "position": "Supervisor, Twoday Company",
+        "phone": "070-829 56 11",
+        "phoneHref": "tel:+46708295611"
+      },
+      {
+        "name": "Jens Carlsson",
+        "position": "Manager, Scania",
+        "phone": "076-891 90 44",
+        "phoneHref": "tel:+46768919044"
+      },
+      {
+        "name": "Aurelia",
+        "position": "Manager, Home Care",
+        "phone": "070-289 65 33",
+        "phoneHref": "tel:+46702896533"
+      },
+      {
+        "name": "Maddalene Palo",
+        "position": "Manager, Home Care",
+        "phone": "0481 456 47",
+        "phoneHref": "tel:+4648145647"
+      }
+    ]
+  },
+  "workExperience": {
+    "title": "Work Experience",
+    "items": [
+      {
+        "position": "Home Care – Nybro Municipality",
+        "date": "January 2020 – Present"
+      },
+      {
+        "position": "Teacher (substitute) – Paradisskolan, Nybro Municipality",
+        "date": "February 2024 – June 2024"
+      },
+      {
+        "position": "Internship – Twoday",
+        "date": "November 2023 – April 2024"
+      },
+      {
+        "position": "Assembler – Scania, Oskarshamn",
+        "date": "October 2018 – October 2019"
+      },
+      {
+        "position": "Cleaner – Ekerum, Öland",
+        "date": "January 2016 – October 2018"
+      },
+      {
+        "position": "Salesman – Syria",
+        "date": "2010 – 2012"
+      }
+    ]
+  }
+}
+
+
+  
