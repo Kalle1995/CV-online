@@ -1,6 +1,8 @@
 import React from "react";
 import "./References.css";
 import { useTranslation } from "react-i18next";
+import BackHomeButton from "../BackHomeButton/BackHomeButton"; // justera sökvägen om det behövs
+
 
 const References = () => {
   const { t } = useTranslation();
@@ -9,6 +11,7 @@ const References = () => {
 
   return (
     <div className="references-container">
+            <BackHomeButton />
       <h2 className="section-title">{t("references.title")}</h2>
 
       {references.map((ref, index) => (

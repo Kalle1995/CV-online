@@ -5,15 +5,16 @@
     "profileAlt": "Profile picture",
     "links": {
       "education": "Education",
-      "personalLetter": "Personal Letter",
+      "personalLetter": "About me",
       "competence": "Competence",
       "workExperience": "Work Experience",
-      "references": "References"
+      "references": "References",
+      "industryExperience": "Industry Experience"
     },
     "about": {
       "line1": "I am a versatile person with experience in various fields. But when it comes to my passion, it is development.",
       "line2": "My experience in development, combined with my natural skills and strong interest, makes me a qualified candidate for development-related jobs. I am self-driven and like to work both in teams and individually, with the ability to take initiative and deliver results.",
-      "line3": "I speak fluent Arabic and have good skills in both English and Swedish, which gives me an advantage when it comes to communicating effectively."
+      "line3": "I speak fluent Arabic, speak Swedish nearly fluently and have good command of English., which gives me an advantage when it comes to communicating effectively."
     },
     "contactButton": "Contact me"
   },
@@ -63,14 +64,14 @@
     }
   },
   "personalLetter": {
-    "title": "Personal Letter",
+    "title": "About Me",
     "paragraph1": "Hello!",
-    "paragraph2": "I am very interested in the opportunity to work as a frontend developer with your company. My passion for web development and technology drives me to constantly grow and learn new things in areas like React, Angular, JavaScript, and CSS.",
-    "paragraph3": "In addition to frontend, I also have basic knowledge of backend development, including Express.js and SQL, which gives me a broader understanding of the entire development process. I enjoy working with both frontend and backend to create efficient and scalable solutions.",
-    "paragraph4": "I am a goal-oriented and problem-solving person who enjoys working independently as well as in a team. I always strive to create user-friendly and effective interfaces that enhance the user experience.",
-    "paragraph5": "With my strong work ethic and ability to quickly learn new technologies, I am confident that I can contribute positively to your team and projects. I like to take initiative and see challenges as opportunities to grow and improve.",
+    "paragraph2": "I am person who enjoys learning new things, especially within web development. I have skills in both frontend and backend, and I find it exciting to create user-friendly and functional websites.",
+    "paragraph3": "I also have experience with Microsoft 365, which gives me a broader understanding of modern IT solutions and tools.",
+    "paragraph4": "I like working both independently and with others. I am driven, take initiative, and always strive to do my best in everything I do.",
+    "paragraph5": "My ambition is to continue growing as a developer and contribute positively with my skills.",
     "paragraph6": "Thank you for taking the time to read my letter. I look forward to the opportunity to show what I can contribute and to grow together with you.",
-    "closing": "Best regards,\nKhaled Heteni"
+    "closing": "Best regards, Khaled Heteni"
   },
    "competence": {
     "title": "Competence",
@@ -78,27 +79,36 @@
       "title": "Frontend Developer",
       "description": "I have solid knowledge of the following technologies:",
       "items": [
-        "HTML5, CSS3, JavaScript (ES6+)",
+        "HTML5, CSS3, JavaScript (ES6+), TypeScript",
         "React.js, Next.js, Angular",
-        "TypeScript, Tailwind CSS, shadcn/ui",
-        "Git, GitHub, API integrations, responsive design"
+        "Tailwind CSS, SCSS, responsive design",
+        "Git, GitHub,",
+        "API-integrationer med REST, JSON, Axios, Fetch",
+        "Byggverktyg som Vite, NPM"
       ]
     },
     "m365": {
       "title": "Microsoft 365",
       "description": "Within Microsoft 365, I have experience with:",
       "items": [
+        "Microsoft 365 Admin Center",
         "SharePoint",
-        "Power Platform (Power Apps, Power Automate, Power BI)",
+        "Power Platform (Power Apps, Power Automate, Power BI, Power Virtual Agents)",
         "Teams integrations",
-        "OneDrive and Exchange management"
+        "OneDrive and Exchange management",
+        "Microsoft Forms",
+        "Security & Compliance Center",
+        "Azure AD (Identity and Access Management)",
+        "Exchange Online",
+        "Microsoft Defender for Office 365",
+        "Office Online (Word, Excel, PowerPoint online) – Web versions of Office apps"
       ]
     },
     "it": {
       "title": "Data & IT",
       "items": [
         "General computer skills",
-        "Basic hardware and software",
+        "Hardware and software",
         "Troubleshooting and problem solving"
       ]
     },
@@ -106,8 +116,8 @@
       "title": "Languages",
       "items": [
         "Arabic – Fluent",
-        "Swedish – Good knowledge",
-        "English – Very good"
+        "Swedish – Almost fluent",
+        "English – Good knowledge"
       ]
     },
     "other": {
@@ -151,27 +161,64 @@
     "items": [
       {
         "position": "Home Care – Nybro Municipality",
-        "date": "January 2020 – Present"
+        "date": "January 2020 – current",
+        "description": "Responsible for providing care, support, and services to elderly people in their homes. Worked with personal care, medication handling, and social support."
       },
       {
         "position": "Teacher (substitute) – Paradisskolan, Nybro Municipality",
-        "date": "February 2024 – June 2024"
+        "date": "February 2024 – June 2024",
+        "description": "Supported students in different subjects, assisted in the classroom, and helped create a positive and supportive learning environment."
       },
       {
         "position": "Internship – Twoday",
-        "date": "November 2023 – April 2024"
+        "date": "November 2023 – April 2024",
+        "description": "Worked on creating and editing SharePoint pages and supported Power Platform solutions like Power Apps and Power Automate."
       },
       {
         "position": "Assembler – Scania, Oskarshamn",
-        "date": "October 2018 – October 2019"
+        "date": "October 2018 – October 2019",
+        "description": "Worked with assembling truck parts, especially doors. Assembled complete units with precision and attention to detail."
+
       },
       {
         "position": "Cleaner – Ekerum, Öland",
-        "date": "January 2016 – October 2018"
+        "date": "January 2016 – October 2018",
+        "description": "Cleaned hotel rooms and common areas thoroughly."
       },
       {
         "position": "Salesman – Syria",
-        "date": "2010 – 2012"
+        "date": "2010 – 2012",
+         "description": "Worked in a grocery store"
+      }
+    ]
+  },
+    "industryExperience": {
+    "title": "Industry Experience",
+    "items": [
+      {
+        "sector": "Public Sector",
+        "example": "Nybro Municipality – home care and school",
+        "description": "I worked in elderly home care and as a substitute teacher. I supported people in their daily routines and helped students in the classroom. I gained experience in service, responsibility, and teamwork."
+      },
+      {
+        "sector": "IT & Technology",
+        "example": "Internship at Twoday – SharePoint and Power Platform",
+        "description": "During my internship, I worked on creating and editing SharePoint pages. I also helped build solutions using Microsoft Power Apps and Power Automate. I gained hands-on experience with modern digital tools."
+      },
+      {
+        "sector": "Manufacturing / Industry",
+        "example": "Scania – truck assembly",
+        "description": "I worked in production at Scania, assembling truck parts – especially doors. The work required precision, teamwork, and strong work discipline."
+      },
+      {
+        "sector": "Hospitality & Service",
+        "example": "Ekerum Resort – cleaner",
+        "description": "I cleaned hotel rooms, making sure everything was tidy and welcoming. I learned the importance of attention to detail and good customer service."
+      },
+      {
+        "sector": "Retail",
+        "example": "Grocery store in Syria – sales assistant",
+        "description": "I worked in a store selling products, helping customers, and keeping the shop organized. I gained experience in sales, responsibility, and customer care."
       }
     ]
   }

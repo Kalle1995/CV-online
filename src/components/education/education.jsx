@@ -1,6 +1,8 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import "./education.css";
+import BackHomeButton from "../BackHomeButton/BackHomeButton"; // justera sökvägen om det behövs
+
 
 const Education = () => {
   const { t } = useTranslation();
@@ -10,7 +12,10 @@ const Education = () => {
   };
 
   return (
+    
     <div className="cv-container">
+      <BackHomeButton />
+
       <h2>{t("education.title", "Utbildningar")}</h2>
 
       <div className="education-item">

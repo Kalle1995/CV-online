@@ -6,6 +6,8 @@ import PersonalLetter from "./components/personalLetter/personalLetter";
 import Competence from "./components/competence/competence";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
 import References from "./components/References/References";
+import IndustryExperience from "./components/IndustryExperience/IndustryExperience";
+
 
 const App = () => {
   return (
@@ -16,6 +18,7 @@ const App = () => {
         <Route path="/competence" element={<Competence />} />
         <Route path="/work-experience" element={<WorkExperience />} />
         <Route path="/references" element={<References />} />
+        <Route path="/industry-experience" element={<IndustryExperience />} />
       </Routes>
   );
 };

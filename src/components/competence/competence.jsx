@@ -1,6 +1,8 @@
 import React from "react";
 import "./Competence.css";
 import { useTranslation } from "react-i18next";
+import BackHomeButton from "../BackHomeButton/BackHomeButton"; // justera sökvägen om det behövs
+
 
 const Competence = () => {
   const { t } = useTranslation();
@@ -10,6 +12,8 @@ const Competence = () => {
 
   return (
     <div className="competence-container">
+            <BackHomeButton />
+
       <h2 className="section-title">{t("competence.title")}</h2>
 
       <div className="competence-section">

@@ -46,6 +46,7 @@ const Home = () => {
         <Link to="/competence" className="btn">{t("home.links.competence", "Kompetens")}</Link>
         <Link to="/work-experience" className="btn">{t("home.links.workExperience", "Arbetslivserfarenhet")}</Link>
         <Link to="/references" className="btn">{t("home.links.references", "References")}</Link>
+        <Link to="/industry-experience" className="btn">{t("home.links.industryExperience", "Branscherfarenhet")}</Link>
       </div>
 
       <div className="about-me-text">

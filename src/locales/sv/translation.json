@@ -5,15 +5,16 @@
     "profileAlt": "Profilbild",
     "links": {
       "education": "Utbildningar",
-      "personalLetter": "Personligt Brev",
+      "personalLetter": "Om mig",
       "competence": "Kompetens",
       "workExperience": "Arbetslivserfarenhet",
-      "references": "Referenser"
+      "references": "Referenser",
+      "industryExperience": "Branscherfarenhet"
     },
     "about": {
       "line1": "Jag är en mångsidig person med erfarenhet av att arbeta inom olika områden. Men när det kommer till mitt passion så är det inom utveckling.",
       "line2": "Min erfarenhet inom utveckling, kombinerat med mina naturliga färdigheter och starka intresse, gör mig till en kvalificerad kandidat för utvecklingsrelaterade jobb. Jag är en självgående person som gärna arbetar både i team och enskilt och har förmåga att ta initiativ och leverera resultat.",
-      "line3": "Jag talar flytande arabiska och har goda kunskaper i både engelska och svenska, vilket ger mig en fördel när det gäller att kommunicera effektivt."
+      "line3": "Jag talar flytande arabiska, nästan flyttande på Svenska och har goda kunskaper på Engleska, vilket ger mig en fördel när det gäller att kommunicera effektivt."
     },
     "contactButton": "Kontakta mig"
   },
@@ -63,14 +64,14 @@
     }
   },
   "personalLetter": {
-    "title": "Personligt Brev",
+    "title": "Om mig",
     "paragraph1": "Hej!",
-    "paragraph2": "Jag är mycket intresserad av möjligheten att arbeta som frontendutvecklare hos er. Min passion för webbutveckling och teknik driver mig att ständigt utvecklas och lära mig nya saker inom områden som React, Angular, JavaScript och CSS.",
-    "paragraph3": "Utöver frontend har jag också grundläggande kunskaper inom backend-utveckling, bland annat med Express.js och SQL, vilket ger mig en bredare förståelse för hela utvecklingsprocessen. Jag gillar att arbeta med både frontend och backend för att skapa effektiva och skalbara lösningar.",
-    "paragraph4": "Jag är en målmedveten och problemlösningsorienterad person som trivs med att arbeta både självständigt och i team. Jag strävar alltid efter att skapa användarvänliga och effektiva gränssnitt som förbättrar användarupplevelsen.",
-    "paragraph5": "Med min starka arbetsmoral och förmåga att snabbt sätta mig in i nya tekniker, är jag övertygad om att jag kan bidra positivt till ert team och era projekt. Jag gillar att ta initiativ och ser utmaningar som möjligheter att växa och bli ännu bättre.",
+    "paragraph2": "Jag är en person som gillar att lära mig nya saker, särskilt inom webbutveckling. Jag har kunskaper inom både frontend och backend, och tycker det är spännande att skapa användarvänliga och funktionella webbplatser.",
+    "paragraph3": "Jag har också erfarenhet av Microsoft 365, vilket ger mig en bredare förståelse för moderna IT-lösningar och verktyg.",
+    "paragraph4": "Jag jobbar gärna både självständigt och tillsammans med andra. Jag är driven, tar gärna initiativ och vill alltid göra mitt bästa i det jag gör.",
+    "paragraph5": "Min ambition är att fortsätta utvecklas som utvecklare och bidra med mina kunskaper på ett positivt sätt.",
     "paragraph6": "Tack för att ni tar er tid att läsa mitt brev. Jag ser fram emot att få möjlighet att visa vad jag kan tillföra och utvecklas tillsammans med er.",
-    "closing": "Vänliga hälsningar,\nKhaled Heteni"
+    "closing": "Vänliga hälsningar, Khaled Heteni"
   },
   "competence": {
     "title": "Kompetens",
@@ -78,27 +79,36 @@
       "title": "Frontend Developer",
       "description": "Jag har goda kunskaper inom följande tekniker:",
       "items": [
-        "HTML5, CSS3, JavaScript (ES6+)",
-        "React.js, Next.js, Angular",
-        "TypeScript, Tailwind CSS, shadcn/ui",
-        "Git, GitHub, API-integrationer, responsiv design"
-      ]
+         "HTML5, CSS3, JavaScript (ES6+), TypeScript",
+          "React.js, Next.js, Angular",
+          "Tailwind CSS, SCSS, responsiv design",
+          "Git, GitHub",
+          "API-integrationer med REST, JSON, Axios, Fetch",
+          "Byggverktyg som Vite, NPM"
+        ]
     },
     "m365": {
       "title": "Microsoft 365",
       "description": "Inom Microsoft 365 har jag kunskaper i:",
       "items": [
+        "Microsoft 365 Admin Center",
         "SharePoint",
-        "Power Platform (Power Apps, Power Automate, Power BI)",
+        "Power Platform (Power Apps, Power Automate, Power BI, Power Virtual Agents )",
         "Teams-integrationer",
-        "OneDrive och Exchange-hantering"
+        "OneDrive och Exchange-hantering",
+        "Microsoft Forms",
+        "Security & Compliance Center (säkerhets- och regelefterlevnadshantering)",
+        "Azure AD (identitetshantering och åtkomstkontroll)",
+        "Exchange Online",
+        "Microsoft Defender for Office 365",
+        "Office Online (Word, Excel, PowerPoint online) – Webbversioner av Office-apparna"
       ]
     },
     "it": {
       "title": "Data & IT",
       "items": [
         "Allmän datorvana",
-        "Grundläggande hårdvara och mjukvara",
+        "Hårdvara och mjukvara",
         "Felsökning och problemlösning"
       ]
     },
@@ -106,8 +116,8 @@
       "title": "Språk",
       "items": [
         "Arabiska – Flytande",
-        "Svenska – Goda kunskaper",
-        "Engelska – Mycket bra"
+        "Svenska – Nästan flyttande",
+        "Engelska – Goda kunskaper"
       ]
     },
     "other": {
@@ -133,10 +143,10 @@
         "phoneHref": "tel:+46768919044"
       },
       {
-        "name": "Aurelia",
+        "name": "Aurelia Latacn",
         "position": "Chef, Hemtjänst",
-        "phone": "070-289 65 33",
-        "phoneHref": "tel:+46702896533"
+        "phone": "0481-452 96",
+        "phoneHref": "tel:+4648142596"
       },
       {
         "name": "Maddalene Palo",
@@ -151,27 +161,63 @@
     "items": [
       {
         "position": "Hemtjänst – Nybro Kommun",
-        "date": "Januari 2020 – Nuvarande"
+        "date": "Januari 2020 – Nuvarande",
+        "description": "Ansvarade för omsorg, stöd och service till äldre personer i deras hem. Arbetade med personlig omvårdnad, medicinhantering och socialt stöd"
       },
       {
         "position": "Lärare (vikarie) – Paradisskolan, Nybro Kommun",
-        "date": "Februari 2024 – Juni 2024"
+        "date": "Februari 2024 – Juni 2024",
+        "description": "Jag hjälpte eleverna i olika ämnen, stöttade dem i klassrummet och såg till att de hade det bra och lärde sig på bästa sätt."
       },
       {
         "position": "Praktik – Twoday",
-        "date": "November 2023 – April 2024"
+        "date": "November 2023 – April 2024",
+        "description": "Jag arbetade med att skapa och redigera SharePoint-sidor och hjälpte till med Power Platform-lösningar som Power Apps och Power Automate."
       },
       {
         "position": "Montör – Scania, Oskarshamn",
-        "date": "Oktober 2018 – Oktober 2019"
+        "date": "Oktober 2018 – Oktober 2019",
+        "description": "Jag arbetade med montering av lastbilsdelar, särskilt dörrar. Jag monterade kompletta enheter med precision och noggrannhet."
       },
       {
         "position": "Städare – Ekerum, Öland",
-        "date": "Januari 2016 – Oktober 2018"
+        "date": "Januari 2016 – Oktober 2018",
+        "description": "Jag städade hotellrum och allmänna ytor noggrant. Jag såg till att gästerna trivdes genom att hålla ordning och skapa en ren miljö."
       },
       {
         "position": "Säljare – Syrien",
-        "date": "2010 – 2012"
+        "date": "2010 – 2012",
+        "description": "Jag arbetade i en livsmedelsbutik där jag sålde varor, tog hand om kunder och ansvarade för att hålla butiken organiserad och i gott skick."
+      }
+    ]
+  },
+  "industryExperience": {
+    "title": "Branscherfarenhet",
+    "items": [
+      {
+        "sector": "Offentlig sektor",
+        "example": "Nybro kommun – hemtjänst och skola",
+        "description": "Jag har arbetat inom hemtjänst och som vikarie i skolan. Där fick jag ge stöd till äldre i deras hem och hjälpa elever med undervisning. Det har gett mig erfarenhet av service, ansvar och samarbete."
+      },
+      {
+        "sector": "IT & teknik",
+        "example": "Praktik hos Twoday – SharePoint och Power Platform",
+        "description": "Under min praktik jobbade jag med att skapa och redigera SharePoint-sidor. Jag arbetade även med Microsoft Power Apps och Power Automate. Jag fick praktisk erfarenhet av moderna verktyg för digitala lösningar."
+      },
+      {
+        "sector": "Tillverkning / industri",
+        "example": "Scania – montering av lastbilar",
+        "description": "Jag jobbade i produktion hos Scania, där jag monterade lastbilsdelar, särskilt dörrar. Det krävde noggrannhet, samarbete och bra arbetsdisciplin."
+      },
+      {
+        "sector": "Hotell & service",
+        "example": "Ekerum Resort – städare",
+        "description": "Jag städade hotellrum. Jag såg till att gästerna trivdes och att allt var rent och fint. Jag lärde mig vikten av noggrannhet och kundbemötande."
+      },
+      {
+        "sector": "Detaljhandel",
+        "example": "Livsmedelsbutik i Syrien – säljare",
+        "description": "Jag arbetade i en butik där jag sålde varor, hjälpte kunder och höll ordning. Jag fick erfarenhet av försäljning, ansvar och kundservice."
       }
     ]
   }
